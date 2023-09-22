@@ -132,7 +132,7 @@ img {
 
 @media screen and (max-width: 768px){
     .container{
-        width: 767px;
+        width: 100%;
         margin: 0 auto;
     }
 }
@@ -146,13 +146,13 @@ img {
         font-size: 1.3em ;
     }
     h1{
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
     h2{
-        font-size: 2.3rem;
+        font-size: 2.4rem;
     }
     .container{
-        width: 480px;
+        width: 100%;
         margin: 0 auto;
     }
     .row{
@@ -175,7 +175,14 @@ img {
     .col-right ul li h3{
         padding-top: 10%;
     }
-    .why-us .container h2{
-        margin-top: -48px;
+    .why-us{
+        margin-bottom: 0;
+    } 
+
+    .why-us h2{
+        padding-top: 10%;
+    }
+    .steps{
+        margin-bottom: 0;
     }
 }
