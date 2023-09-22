@@ -142,6 +142,15 @@ img {
 /* Mobile 480px */
 
 @media screen and (max-width: 480px){
+    body{
+        font-size: 1.3em ;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.3rem;
+    }
     .container{
         width: 480px;
         margin: 0 auto;
@@ -153,11 +162,20 @@ img {
         align-content: center;
         width: 100%;
     }
-    .col{
+    .row .col{
         width: 100%;
     }
-    .card{
+    .col .card{
         width: 100%;
+        padding-top: 12%;
     }
- 
+    .why-us{
+        background-color: #222222;
+    }
+    .col-right ul li h3{
+        padding-top: 10%;
+    }
+    .why-us .container h2{
+        margin-top: -48px;
+    }
 }
